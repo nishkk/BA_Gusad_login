@@ -1,0 +1,106 @@
+*{
+	font-family: monospace;
+	margin: 0;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+
+
+header{
+	padding: 30px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	font-size: 10px;
+}
+header h1:nth-child(1){
+	text-align: left;
+}
+header h1:nth-child(2){
+	text-align: right;
+}
+
+#body{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+#body img{
+	width: 700px;
+}
+#container{
+	width: 300px;
+	padding: 125px 150px 150px 150px;
+}
+
+#login{
+	box-sizing: border-box;
+	background-color: gray;
+	width: 100%;
+	padding: 90px;text-align: center;
+}
+#login a{
+	text-decoration: underline;
+	color: darkslategray;
+}
+.bb{
+	color: transparent;
+}
+input[type=text]:focus{
+	background-color: lightgray;
+}
+input[type=password]:focus{
+	background-color: transparent;
+	outline-color: gray;
+}
+
+footer{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	box-sizing: border-box;
+	padding: 100px;
+	color: white;
+	background-color: black;
+}
+footer h3{
+	margin: 5px 0px 20px 0px;
+	font-size: 30px;
+}
+footer p{
+	padding: 12px 0px 12px 0px;
+}
+#fright{
+	text-align: right;
+}
+#socials{
+	display: grid;
+	grid-template-columns: 1fr 1fr 5fr;
+}
+#fb img{
+	border-radius: 100px;
+	background: url("sprite.jpg") no-repeat -471px -690px;
+	width: 100px;
+	height: 100px;
+	zoom: 0.45;
+}
+#ln img{
+	border-radius: 100px;
+	background: url("sprite.jpg") no-repeat -471px -479px;
+	width: 100px;
+	height: 100px;
+	zoom: 0.45;
+}
+#fb img:hover{
+	border-radius: 100px;
+	background: url("sprite.jpg") no-repeat -1120px -690px;
+	width: 100px;
+	height: 100px;
+	zoom: 0.45;
+}
+#ln img:hover{
+	border-radius: 100px;
+	background: url("sprite.jpg") no-repeat -1120px -479px;
+	width: 100px;
+	height: 100px;
+	zoom: 0.45;
+}
